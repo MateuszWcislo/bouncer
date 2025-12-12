@@ -12,4 +12,4 @@ RUN apt-get update -y && \
 COPY ./app /app
 WORKDIR /app
 
-CMD ["python", "manage.py", "runserver", "0.0.0.0.:8000"]
+CMD ["python", "manage.py", "runserver", "0.0.0.0:8000"]
